@@ -17,23 +17,24 @@ Output: false
 function isIsomorphic(s, t) {
     if (s.length !== t.length) return false;
 
-    const mapS = new Array(256).fill(-1);
-    const mapT = new Array(256).fill(-1);
+    const mapS = new Map();
+    const mapT = new Map();
 
     for (let i = 0; i < s.length; i++) {
-        if (mapS[s.charCodeAt(i)] !== -1) {
-            if (mapS[s.charCodeAt(i)] !== t.charCodeAt(i)) return false;
+        if (mapS.has(s[i])) {
+            if (mapS.get(s[i]) !== t[i]) return false;
         } else {
-            if (mapT[t.charCodeAt(i)] !== -1) return false;
-            mapS[s.charCodeAt(i)] = t.charCodeAt(i);
-            mapT[t.charCodeAt(i)] = s.charCodeAt(i);
+            if (mapT.has(t[i])) return false;
+            mapS.set(s[i], t[i]);
+            mapT.set(t[i], s[i]);
         }
     }
     return true;
 }
 
 //ChatGpt 2. Kod
-//Time Complexity O(N) Space Com : O(1)
+//Time Complexity O(N)  69.8% - Space Com : O(1) 88.73%
+//Hafiza konusunda usttekinden daha iyi. Ama ustteki kod implement etmesi ve anlamasi daha kolay.
 function isIsomorphic2(s, t) {
     if (s.length !== t.length) return false;
 
