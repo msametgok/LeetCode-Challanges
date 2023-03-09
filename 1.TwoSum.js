@@ -22,6 +22,8 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
     DAHA BUYUK ARRAYLERDE MAP KULLANMAK PERFORMANS ACISINDAN DAHA BUYUK AVANTAJ SAGLIYOR. O YUZDEN ILK METHOD DAHA IYI
 */
 
+// ZORLUK SEVIYESI - EASY
+
 //MAP KULLANARAK COZUM
 function twoSum (nums, target) {
     const map = new Map();
