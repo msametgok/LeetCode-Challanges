@@ -1,4 +1,4 @@
-//EASY
+//ZORLUK SEVIYESI - EASY
 
 const romanNumbers = {
   I: 1,
