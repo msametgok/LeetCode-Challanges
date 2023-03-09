@@ -1,4 +1,4 @@
-// MEDIUM
+// ZORLUK SEVIYESI - MEDIUM
 
 const romans = {
   M: 1000,
