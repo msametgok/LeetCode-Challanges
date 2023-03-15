@@ -8,6 +8,7 @@ Return the leftmost pivot index. If no such index exists, return -1.
 
 */
 
+// ZORLUK SEVIYESI - EASY
 
 // Time Comp : O(N) Hiz 93.70 - Space Comp : O(1) Hafiza 41%
 //Hizli fakat hafiza kullaniminda pek iyi degil

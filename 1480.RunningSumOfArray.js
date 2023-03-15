@@ -7,6 +7,7 @@ Output: [1,3,6,10]
 Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 */
 
+//ZORLUK SEVIYESI - EASY
 
 // Time Complexity : 37.73% COK YAVAS - Space Complexity = 93.23% HAFIZA SUPER
 /* COK KOTU YAZDIM. TIME COMPLEXITY o(n*2) O YUZDEN YAVAS */

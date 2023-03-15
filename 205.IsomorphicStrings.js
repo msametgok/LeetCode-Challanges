@@ -11,6 +11,7 @@ Input: s = "foo", t = "bar"
 Output: false
  */
 
+// ZORLUK SEVIYESI - EASY
 
 //Time Complexity : O(N)  78.55% - Space Comp : O(N) - 61.85%
 //ChatGpt Kodu
