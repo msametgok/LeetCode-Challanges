@@ -12,6 +12,8 @@ Output: false
 */
 
 
+// ZORLUK SEVIYESI - EASY
+
 function isSubsequence (s, t) {
     
 }
